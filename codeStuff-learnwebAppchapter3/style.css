@@ -1,0 +1,18 @@
+/* here the body is being styled*/
+body {
+	background: lightcyan; /*sets the background color*/
+	width: 800px;/*sets the width of body to 800px*/
+	margin: auto;/*sets the centers the body on the page*/
+}
+
+h1 {
+	color: maroon;
+	text-align: center;
+}
+
+p { 
+	color: gray;
+	border: 1px solid gray;
+	padding:  10px;
+}
+

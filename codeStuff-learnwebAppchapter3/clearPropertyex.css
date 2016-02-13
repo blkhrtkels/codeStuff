@@ -1,0 +1,26 @@
+/*this css floats the nav to the left and 
+clears out te default margins 
+and padding using the universal selector, 
+which selects all elements in the DOM. 
+It also sets the background of the elements 
+to various shades of gray*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	float: left;
+	background: darkgray;
+}
+
+main {
+	background: lightgray;
+}
+
+footer {
+	background: gray;
+	clear: left; /*or we can just use 'clear: left'in this case, puts footer believe floating elements*/
+
+}
